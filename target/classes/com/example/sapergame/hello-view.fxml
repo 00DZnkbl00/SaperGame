@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane fx:id="gridBoard" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sapergame.HelloController">
+  <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Button fx:id="b0b0" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0">
+         <font><Font size="24.0" /></font></Button>
+      <Button fx:id="b0b1" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="1" >
+       <font><Font size="24.0" /></font></Button>
+      <Button fx:id="b0b2" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="2" >
+          <font><Font size="24.0" /></font></Button>
+      <Button fx:id="b0b3" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="3" >
+          <font><Font size="24.0" /></font></Button>
+      <Button fx:id="b0b4" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="4" >
+          <font><Font size="24.0" /></font></Button>
+      <Button fx:id="b0b5" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="5" >
+          <font><Font size="24.0" /></font></Button>
+      <Button fx:id="b0b6" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="6" >
+          <font><Font size="24.0" /></font></Button>
+      <Button fx:id="b0b7" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="7" >
+          <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b1b0" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.rowIndex="1" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b1b1" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="1" GridPane.rowIndex="1" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b1b2" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="2" GridPane.rowIndex="1" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b1b3" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="3" GridPane.rowIndex="1" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b1b4" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="4" GridPane.rowIndex="1" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b1b5" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="5" GridPane.rowIndex="1" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b1b6" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="6" GridPane.rowIndex="1" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b1b7" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="7" GridPane.rowIndex="1" >
+           <font><Font size="24.0" /></font></Button>
+      <Button fx:id="b2b0" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.rowIndex="2" >
+          <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b2b1" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="1" GridPane.rowIndex="2" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b2b2" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="2" GridPane.rowIndex="2" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b2b3" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="3" GridPane.rowIndex="2" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b2b4" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="4" GridPane.rowIndex="2" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b2b5" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="5" GridPane.rowIndex="2" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b2b6" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="6" GridPane.rowIndex="2" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b2b7" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="7" GridPane.rowIndex="2" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b3b0" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.rowIndex="3" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b3b1" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="1" GridPane.rowIndex="3" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b3b2" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="2" GridPane.rowIndex="3" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b3b3" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="3" GridPane.rowIndex="3" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b3b4" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="4" GridPane.rowIndex="3" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b3b5" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="5" GridPane.rowIndex="3" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b3b6" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="6" GridPane.rowIndex="3" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b3b7" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="7" GridPane.rowIndex="3" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b4b0" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.rowIndex="4" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b4b1" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="1" GridPane.rowIndex="4" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b4b2" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="2" GridPane.rowIndex="4" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b4b3" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="3" GridPane.rowIndex="4" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b4b4" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="4" GridPane.rowIndex="4" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b4b5" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="5" GridPane.rowIndex="4" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b4b6" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="6" GridPane.rowIndex="4" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b4b7" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="7" GridPane.rowIndex="4" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b5b0" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.rowIndex="5" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b5b1" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="1" GridPane.rowIndex="5" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b5b2" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="2" GridPane.rowIndex="5" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b5b3" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="3" GridPane.rowIndex="5" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b5b4" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="4" GridPane.rowIndex="5" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b5b5" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="5" GridPane.rowIndex="5" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b5b6" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="6" GridPane.rowIndex="5" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b5b7" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="7" GridPane.rowIndex="5" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b6b0" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.rowIndex="6" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b6b1" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="1" GridPane.rowIndex="6" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b6b2" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="2" GridPane.rowIndex="6" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b6b3" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="3" GridPane.rowIndex="6" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b6b4" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="4" GridPane.rowIndex="6" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b6b5" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="5" GridPane.rowIndex="6" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b6b6" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="6" GridPane.rowIndex="6" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b6b7" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="7" GridPane.rowIndex="6" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b7b0" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.rowIndex="7" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b7b1" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="1" GridPane.rowIndex="7" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b7b2" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="2" GridPane.rowIndex="7" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b7b3" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="3" GridPane.rowIndex="7" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b7b4" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="4" GridPane.rowIndex="7" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b7b5" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="5" GridPane.rowIndex="7" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b7b6" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="6" GridPane.rowIndex="7" >
+           <font><Font size="24.0" /></font></Button>
+       <Button fx:id="b7b7" mnemonicParsing="false" onAction="#onCheckTileClick" prefHeight="50.0" prefWidth="80.0" GridPane.columnIndex="7" GridPane.rowIndex="7" >
+           <font><Font size="24.0" /></font></Button>
+   </children>
+</GridPane>
